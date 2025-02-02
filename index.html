@@ -25,6 +25,23 @@
         .font-sora {
             font-family: "Sora", serif;
         }
+
+        .bounce {
+            display: inline-block;
+            animation: bounce 5s linear infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
     </style>
     <title>Browse & Pets</title>
 </head>
@@ -46,6 +63,7 @@
                 </ul>
             </div>
 
+
             <div class="md:flex hidden">
                 <!-- fontasome icom  -->
                 <div class="text-cente p-2 mr-3">
@@ -53,7 +71,8 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <div class="md:flex gap-5 hidden">
-                    <button class="px-6 py-1 rounded-md border border-[#FFDC26] bg-[#ffffff] hover:bg-[#FFDC26]">Login</button>
+                    <button
+                        class="px-6 py-1 rounded-md border border-[#FFDC26] bg-[#ffffff] hover:bg-[#FFDC26]">Login</button>
                     <button class="px-6 py-1  rounded-md border bg-[#FFDC26] hover:bg-slate-400">Register</button>
                 </div>
             </div>
@@ -67,7 +86,7 @@
         <!-- start hero section  -->
 
         <div class="max-w-screen-xl xl:mx-auto px-4 md:px-6 lg:px-8 mt-16 relative">
-            <div class="absolute -top-44 md:-top-16">
+            <div class="absolute -top-44 md:-top-16 bounce">
                 <h2 class="adlam-display text-xl md:text-5xl leading-tight mb-4">Pamper Your Pet,<br> Because They
                     Deserve <br>the
                     Bes</h2>
@@ -76,7 +95,7 @@
                     tails wag with joy!</p>
                 <button class="w-36 h-8 rounded-md border bg-[#FFDC26] mt-4  hover:bg-slate-400">Find pat</button>
             </div>
-            <div class="mt-52 sm:mt-40 md:mt-24">
+            <div class="mt-52 sm:mt-40 md:mt-24 ">
                 <img class="" src="c1-assets/cat-big.png" alt="">
             </div>
         </div>
@@ -84,7 +103,7 @@
 
     <main class="">
         <!--Categories sevtion-->
-        <section class="max-w-screen-xl my-12 md:my-24 mx-2 md:mx-auto px-2 md:px-4 lg:px-8J">
+        <section class="max-w-screen-xl my-12 md:my-24 mx-2 md:mx-auto px-2 md:px-4 lg:px-10">
             <h2 class="adlam-display md:text-3xl mb-4 md:mb-6 lg:mb-8">Browse By Categories</h2>
             <!-- card container -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-4">
@@ -336,7 +355,7 @@
         <!-- testimonial section -->
 
         <section class="max-w-screen-xl my-12 md:my-24 mx-2 md:mx-auto px-2 md:px-4 lg:px-8J">
-            <h2 class="adlam-display md:text-3xl mb-4 md:mb-6 lg:mb-8">Browse By Categories</h2>
+            <h2 class="adlam-display md:text-3xl mb-4 md:mb-6 lg:mb-8">Happy Clients says...</h2>
             <!-- card container -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
                 <!-- card 1 -->
@@ -353,7 +372,8 @@
                     </div>
                     <h3 class="font-semibold text-base mb-2">Joseph</h3>
                     <p class="text-sm">"Best Pet Store Ever!"
-                        "I bought a kitten from here, and she is the sweetest! The team was very helpful in guiding me on how to take care of her." </p>
+                        "I bought a kitten from here, and she is the sweetest! The team was very helpful in guiding me
+                        on how to take care of her." </p>
                 </div>
 
                 <!-- card 2 -->
@@ -370,7 +390,8 @@
                     </div>
                     <h3 class="font-semibold text-base mb-2">Amelia</h3>
                     <p class="text-sm">"Highly Recommended!"
-                        "If you are looking for a pet, this is the best place! They truly care about the animals and make sure they go to good homes."</p>
+                        "If you are looking for a pet, this is the best place! They truly care about the animals and
+                        make sure they go to good homes."</p>
                 </div>
 
                 <!-- card 3 -->
@@ -387,7 +408,8 @@
                     </div>
                     <h3 class="font-semibold text-base mb-2">Isabella</h3>
                     <p class="text-sm">"Wonderful Service!"
-                        "I was a little nervous about getting a pet online, but this website made everything easy and safe. My cat is happy and healthy!" </p>
+                        "I was a little nervous about getting a pet online, but this website made everything easy and
+                        safe. My cat is happy and healthy!" </p>
                 </div>
 
                 <!-- card 4 -->
@@ -404,7 +426,8 @@
                     </div>
                     <h3 class="font-semibold text-base mb-2">Joseph</h3>
                     <p class="text-sm">"Trustworthy and Reliable"
-                        "The website made it so easy to adopt a pet. The customer service was excellent, and my new puppy is the best decision I’ve made!" </p>
+                        "The website made it so easy to adopt a pet. The customer service was excellent, and my new
+                        puppy is the best decision I’ve made!" </p>
                 </div>
 
             </div>
